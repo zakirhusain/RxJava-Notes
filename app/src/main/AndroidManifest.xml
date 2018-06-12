@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".OperatorsActivity"></activity>
+        <activity android:name=".OperatorsActivity"/>
         <activity android:name=".rxjava.CompositeDisposableActivity" />
         <activity android:name=".CustomOperatorsActivity" />
         <activity android:name=".rxjava.BasicRxJavaActivity" />
@@ -26,6 +26,7 @@
         <activity android:name=".Map_RxJavaActivity">
 
         </activity>
+
         <activity android:name=".rxjavaretrofit.view.NotesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,6 +34,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
